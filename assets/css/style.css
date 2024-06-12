@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Assistant;
+    src:url(../fonts/Assistant.ttf);
+}
+body{
+    font-family: Assistant,Arial, Helvetica, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+
+.navaber{
+    color: #282c3f;
+    font-size: 14px;
+    position: fixed;
+    height: 80px;
+    
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    color:#282c3f;
+    line-height: 80px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    
+}
+.dropdown:hover >
+.dropdown-menu{
+   top: 88px;
+margin-top: 2px;
+   border: none;
+    display: block;
+     border-radius: 0px;
+    transition: all ease-in 1s;
+    box-shadow: 0px 0px 0.2px #474646;
+}
+.online{
+    
+    font-size: 12px;
+    font-weight: 600;
+    border: 0px solid red;
+
+}
+.header-icons{
+    display: flex;
+}
+.header-bag{
+    margin-right: 20px;
+    display: flex;
+}
+.header-input{
+    border: 1px solid rgb(179, 178, 178);
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.header-input-text{
+    border: none;
+    height: 34px;
+    width: 400px;
+    outline: none;
+}
+.desktop-promises {
+    width: 100%; /* Adjust column width for smaller screens */
+    padding-right: 0; /* Remove padding for smaller screens */
+}
+ 
+
+.nav-item a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.p2{
+    
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.dropdown-menu
+.dropdown-item{
+    padding: 0px;
+    font-size: 15px;
+    height: 25px;
+    font-weight: 500;
+    font-weight: normal;
+}
+.dropdown-menu
+.dropdown-item:hover{
+    font-weight: 700;
+    background: none;
+}
+.dropdown-menu
+.dropdown-item.list-head{
+    font-weight: 700;
+    
+
+}
+.icons {
+    display: flex;
+    margin: 0px 42px;
+  }
+  .icon1{
+    display: flex;
+    margin: 0px 42px;
+
+  }
+  
+.right{
+    color: #000;
+    padding: 0px 13px; 
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+ 
+}
+
+  .profile,
+  .wish,
+  .bag {
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0px 13px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
